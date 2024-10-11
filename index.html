@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latin American Pentecostalism</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <header>
@@ -27,12 +28,14 @@
             </div>
             <div>
                 <div class="resource-links">
-                    <div class="dropdown">
-                        <button class="dropbtn">Resources</button>
-                        <div class="dropdown-content">
-                            <a href="#history">History</a>
-                            <a href="#theology">Theology</a>
-                            <a href="#cultural-impact">Cultural Impact</a>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Resources
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#history">History</a>
+                            <a class="dropdown-item" href="#theology">Theology</a>
+                            <a class="dropdown-item" href="#cultural-impact">Cultural Impact</a>
                         </div>
                     </div>
                 </div>
@@ -60,5 +63,8 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
