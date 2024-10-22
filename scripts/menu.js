@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const menuHTML = `
         <h2>Menu</h2>
         <ul>
-            <li><a href="index.html">Homepage</a></li>
+            <li><a href="index.html">Home</a></li>
             <li>
                 <a href="about.html">About LA Pentecostalism</a>
             </li>
