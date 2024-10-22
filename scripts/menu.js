@@ -41,3 +41,17 @@ document.addEventListener("DOMContentLoaded", function() {
     // Insert the menu into the element with the class "menu"
     document.querySelector(".menu").innerHTML = menuHTML;
 });
+
+// add favicon
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Create a new link element for the favicon
+    const faviconLink = document.createElement('link');
+    faviconLink.rel = 'icon';
+    faviconLink.type = 'image/x-icon';
+    faviconLink.href = 'img/favicon.ico';  // Path to your favicon image
+
+    // Append the favicon link to the <head> of the document
+    document.head.appendChild(faviconLink);
+});
+
